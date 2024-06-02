@@ -1,0 +1,6 @@
+pixel_format = "JPEG"
+frame_size = "SVGA"
+jpeg_quality = 10
+denoise = 0
+flip = false
+awb_gain = true

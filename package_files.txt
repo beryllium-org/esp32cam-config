@@ -1,0 +1,6 @@
+folder /etc/camera.d
+file config.toml /etc/camera.d/config.toml
+folder /etc/camera.d/presets
+file high.toml /etc/camera.d/presets/high.toml
+file stream.toml /etc/camera.d/presets/stream.toml
+file 10-esp32cam-I2C.lja /boot/boot.d/10-esp32cam-I2C.lja

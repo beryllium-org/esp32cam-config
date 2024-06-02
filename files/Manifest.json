@@ -1,9 +1,9 @@
 {
     "JPKG_minimum_version": 2,
-    "package_name": "package",
-    "version": [0, 0, 0],
-    "dependencies": [],
-    "conflicts": [],
+    "package_name": "esp32cam-config",
+    "version": [1, 0, 0],
+    "dependencies": ["camera"],
+    "conflicts": ["m5x-config"],
     "install": "installer.py",
     "remove": "uninstaller.py",
     "update": "installer.py",

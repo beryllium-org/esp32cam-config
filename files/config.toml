@@ -1,0 +1,13 @@
+default_preset = "high"
+device = "ov2640"
+branding = "ESP32CAM"
+
+data_pins = "CAMERA_DATA"
+pixel_clock_pin = "CAMERA_PCLK"
+vsync_pin = "CAMERA_VSYNC"
+href_pin = "CAMERA_HREF"
+i2c = "i2c0"
+external_clock_pin = "CAMERA_XCLK"
+external_clock_frequency = 20000000
+powerdown_pin = "CAMERA_PWDN"
+reset_pin = "none"
